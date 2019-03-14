@@ -1,0 +1,12 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+header {
+  background-color: #70ad55;
+}
+
+h1,
+header > p {
+  color: #fff;
+}
