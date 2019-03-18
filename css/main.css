@@ -10,3 +10,26 @@ h1,
 header > p {
   color: #fff;
 }
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #70ad55;
+}
+
+input,
+select {
+  border-color: #6e8c62;
+}
+
+.optional {
+  color: #70ad55;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .test {
+    padding-right: 1em;
+  }
+
+}
