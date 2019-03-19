@@ -30,6 +30,16 @@ select {
   border-bottom: 1px solid #70ad55;
 }
 
+button {
+  background-color: #6e8c62;
+  border: 1px solid #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
 @media only screen and (min-width: 60em) {
 
   .test {
