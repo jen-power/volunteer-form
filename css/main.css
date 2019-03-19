@@ -30,7 +30,7 @@ select {
   border-bottom: 1px solid #70ad55;
 }
 
-button {
+.btn {
   background-color: #6e8c62;
   border: 1px solid #6e8c62;
 }
