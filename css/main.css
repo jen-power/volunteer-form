@@ -11,9 +11,14 @@ header > p {
   color: #fff;
 }
 
+h1 {
+  margin: 0;
+}
+
 fieldset {
   margin: 0;
   padding: 0;
+  border: none;
   border-bottom: 1px solid #70ad55;
 }
 
