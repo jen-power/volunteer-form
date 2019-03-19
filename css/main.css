@@ -26,6 +26,10 @@ select {
   color: #70ad55;
 }
 
+.message-border {
+  border-bottom: 1px solid #70ad55;
+}
+
 @media only screen and (min-width: 60em) {
 
   .test {
