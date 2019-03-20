@@ -31,8 +31,8 @@ select {
   color: #70ad55;
 }
 
-.message-border {
-  border-bottom: 1px solid #70ad55;
+hr {
+  color: #70ad55;
 }
 
 .comments {

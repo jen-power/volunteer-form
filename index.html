@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <title>Volunteer Sign-up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700" rel="stylesheet">
 </head>
@@ -34,7 +34,7 @@
           </div>
           <div class="unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
             <label for="birth" class="push-1-8">Date of birth</label>
-            <input type ="date" id="birth">
+            <input type="date" id="birth">
           </div>
           <div class="unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
             <label for="shirt" class="push-1-8">T-shirt size</label>
@@ -54,7 +54,7 @@
           </div>
           <div class="unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
             <label for="email" class="push-1-8">Email</label>
-            <input id="email">
+            <input type="email" id="email">
           </div>
           <div class="unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
             <label for="phone" class="push-1-8">Phone number <span class="optional italic">(optional)</span></label>
@@ -66,18 +66,18 @@
       <fieldset class="pad-b push">
         <legend class="giga push pad-t">Address</legend>
         <div class="grid pad-t-1-2">
-          <div class= "unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
+          <div class="unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
             <label for="address" class="push-1-8">Street address</label>
             <input id="address">
           </div>
-          <div class= "unit unit-xs-1 push pad-t-1-2 unit-m-1-2 unit-l-1-2">
+          <div class="unit unit-xs-1 push pad-t-1-2 unit-m-1-2 unit-l-1-2">
             <label for="city" class="push-1-8">City</label>
             <input id="city" class="push-1-2">
           </div>
           <div class="unit unit-xs-1 push unit-m-1-2 unit-l-1-2">
             <label for="province" class="push-1-8">Province</label>
             <select id="province" class="push-1-2">
-              <option>Select a province</option>
+              <option value="">Select a province</option>
               <option>Alberta</option>
               <option>British Columbia</option>
               <option>Manitoba</option>
@@ -199,7 +199,7 @@
           <label for="license-no" class="push-r">No</label>
         </div>
 
-        <legend class="push-1-2 pad-t-2 giga">Do you have a pick-up truck you’d be willing to use?</legend>
+        <p class="push-1-2 pad-t-2 giga">Do you have a pick-up truck you’d be willing to use?</p>
         <div class="push">
           <input type="radio" id="truck-yes" name="radio2">
           <label for="truck-yes" class="push-r">Yes</label>
@@ -207,7 +207,7 @@
           <label for="truck-no">No</label>
         </div>
 
-        <legend class="push-1-2 pad-t-2 giga">Do you have up-to-date first-aid certification?</legend>
+        <p class="push-1-2 pad-t-2 giga">Do you have up-to-date first-aid certification?</p>
         <div class="push">
           <input type="radio" id="aid-yes" name="radio3">
           <label for="aid-yes" class="push-r">Yes</label>
@@ -219,6 +219,10 @@
       <div class="message-border">
         <label for="message" class="pad-t push-1-2 bold giga">Please let us know any comments or questions you may have. <span class="optional italic">(optional)</span></label>
         <textarea id="message" class="push comments"></textarea>
+      </div>
+
+      <div>
+        <hr>
       </div>
 
       <div class="push pad-t text-center">
