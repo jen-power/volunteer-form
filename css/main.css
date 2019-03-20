@@ -35,6 +35,10 @@ select {
   border-bottom: 1px solid #70ad55;
 }
 
+.comments {
+  height: 11em;
+}
+
 .btn {
   background-color: #6e8c62;
   border: 1px solid #6e8c62;
