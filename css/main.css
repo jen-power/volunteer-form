@@ -23,7 +23,10 @@ fieldset {
 }
 
 input,
-select {
+select,
+textarea,
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before  {
   border-color: #6e8c62;
 }
 
